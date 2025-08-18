@@ -1,13 +1,13 @@
-let somar = require("./soma");
+let somar = require("./opera/soma");
 console.log(somar(1,2));
 
-let subtrai = require("./sub");
+let subtrai = require("./opera/sub");
 console.log(subtrai(4,5));
 
-let divsao = require("./div");
+let divsao = require("./opera/div");
 console.log(divsao(10,2));
 
-let multiplica = require("./mult");
+let multiplica = require("./opera/mult");
 console.log(multiplica(5,3));
 
 
